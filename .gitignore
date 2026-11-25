@@ -1,0 +1,16 @@
+# secrets / local config
+.env
+*.env
+
+# datasets (provided by the course, not redistributed here)
+*.parquet
+ticket_sales*.json
+todays_ticket_sales.json
+showings.json
+data/
+
+# notebooks / python / OS
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
